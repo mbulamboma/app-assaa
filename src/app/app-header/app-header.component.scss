@@ -1,0 +1,41 @@
+#header-navbar{
+    background-color: transparent;
+}
+// Add this code to your component's SCSS file
+.nav-item{
+   margin-left: 1vw;
+}
+
+.nav-link:hover, .nav-link.show{
+    background-color: transparent; /* Set the default background color */
+    border-top: 5px solid #a51313; /* Add underline to show it as active */
+  }
+  
+ .nav-item .nav-link {
+    font-weight: 400;
+ }
+
+ .nav-item .nav-link{
+    color: white; 
+ }
+
+ .navbar {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: transparent;
+  }
+
+  .dropdown-toggle::after {
+   display: none;
+ }
+ 
+ .dropdown-submenu .dropdown-menu {
+   left: 100%;
+   top: 0;
+ }
+
+ .dropdown-submenu:hover .dropdown-menu {
+   display: block;
+ }
